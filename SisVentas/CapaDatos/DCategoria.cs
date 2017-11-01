@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace CapaDatos
 {
-    class DCategoria
+    public class DCategoria
     {
         private int idCategoria;
         private string nombre;
