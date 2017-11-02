@@ -8,6 +8,6 @@ namespace CapaDatos
 {
     class Conexion
     {
-        public static string cn = "Data Source=JPPACHAR-PC\SQLEXPRESS; Initial Catalog=dbventas; Integrated Security=true";
+        public static string cn = Properties.Settings.Default.cn;
     }
 }
